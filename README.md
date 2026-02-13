@@ -69,5 +69,7 @@ numpy
 yfinance
 
 **How to Run**
+
 pip install yfinance pandas numpy
+
 python momentum_strategy.py
