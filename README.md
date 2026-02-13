@@ -1,4 +1,4 @@
-# NIFTY50_Momentum_Trading_Strategies
+# NIFTY50 Momentum Trading Strategy
 
 ## About This Project
 
@@ -10,7 +10,15 @@ Stocks that performed well in the past 12 months may continue to perform well in
 
 The strategy selects the top 5 best-performing stocks each month and holds them for the next month.
 
-## What the Code Does
+## Data Used
+
+Stocks: Nifty 50 companies
+
+Data source: Yahoo Finance
+
+Time period: From 2012 onwards
+
+## Strategy Overview
 
 Downloads historical price data of Nifty 50 stocks using yfinance
 
@@ -39,14 +47,6 @@ Compares performance with NIFTY index (Buy & Hold)
 **NIFTY Buy & Hold CAGR: 13.67%**
 
 The momentum strategy performed better than simply holding the index during this period.
-
-## Data Used
-
-Stocks: Nifty 50 companies
-
-Data source: Yahoo Finance
-
-Time period: From 2012 onwards
 
 ## Assumptions
 
