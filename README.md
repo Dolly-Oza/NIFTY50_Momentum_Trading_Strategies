@@ -1,6 +1,6 @@
 # NIFTY50_Momentum_Trading_Strategies
 
-**About This Project**
+## About This Project
 
 This project tests a simple momentum investing strategy using stocks from the Nifty 50 index.
 
@@ -10,7 +10,7 @@ Stocks that performed well in the past 12 months may continue to perform well in
 
 The strategy selects the top 5 best-performing stocks each month and holds them for the next month.
 
-**What the Code Does**
+## What the Code Does
 
 Downloads historical price data of Nifty 50 stocks using yfinance
 
@@ -32,15 +32,15 @@ Repeats this process until the latest date
 
 Compares performance with NIFTY index (Buy & Hold)
 
-**Results**
+## Results
 
-Momentum Strategy CAGR: 19.18%
+**Momentum Strategy CAGR: 19.18%**
 
-NIFTY Buy & Hold CAGR: 13.67%
+**NIFTY Buy & Hold CAGR: 13.67%**
 
 The momentum strategy performed better than simply holding the index during this period.
 
-**Data Used**
+## Data Used
 
 Stocks: Nifty 50 companies
 
@@ -48,7 +48,7 @@ Data source: Yahoo Finance
 
 Time period: From 2012 onwards
 
-**Assumptions**
+## Assumptions
 
 No transaction costs
 
@@ -58,7 +58,7 @@ Monthly rebalancing
 
 Static list of Nifty 50 stocks
 
-**Libraries Used**
+## Libraries Used
 
 Python
 
@@ -68,7 +68,7 @@ numpy
 
 yfinance
 
-**How to Run**
+## How to Run
 
 pip install yfinance pandas numpy
 
